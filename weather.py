@@ -10,7 +10,7 @@ hora = now.strftime("%H")
 
 
 df = response.json()
-#print(df)
+
 
 hourlyWeather = df.get("hourly")
 
@@ -41,7 +41,3 @@ def tellTemp():
         
 
 tellTemp()
-# def toDic(a,b):
-
-
-
